@@ -1,2 +1,2 @@
 # learngo
-Autoestudo da Lignau GO/Golang
+Autoestudo da Lingua de programação GO/Golang
