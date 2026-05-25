@@ -1,2 +1,2 @@
 # learngo
-Autoestudo da Lingua de programação GO/Golang
+Repositório dedicado ao aprendizado da linguagem Go/Golang
