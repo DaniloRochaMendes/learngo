@@ -2,13 +2,16 @@ package main
 
 import "fmt"
 
-func main() {
-	gopher := "Declaração de Variavel"
-	fmt.Println(gopher)
+var tst1 = "Print Fora da função main" // Declaração de variável global
 
-	tst1 := "uma frase"
-	tst2 := 20
-	fmt.Printf("tst1: %v, \n", tst1)
+func main() { //Abertura da função main
+	gopher := "Declaração da Variavel Gopher"
+	fmt.Println(gopher)
+	fmt.Print("tst1: ", tst1, " com ", gopher, "\n") // Gera a variavel global
+
+	tst1 := "\n Print Dentro da função main \n" // Declaração de variável local com o mesmo nome da variável global
+	tst2 := 20                                  // variavel int
+	fmt.Printf(tst1)                            // Gera a variável local
 	fmt.Printf("tst2: %v, %T\n", tst2, tst2)
 
 }
